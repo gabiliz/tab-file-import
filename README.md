@@ -1,24 +1,16 @@
-# README
+# Tab file import
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## History
+This project was done for a job offer to test my skills with Ruby on rails and unit tests with Rspec.
+I didn't get in :( but it was a cool project to learn about how to import and work with a csv file.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Technologies
+* Ruby on Rails
+* Rspec
+* Sass
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ruby,rails,sass" />
+  </a>
+</p>
