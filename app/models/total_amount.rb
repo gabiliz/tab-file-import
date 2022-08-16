@@ -1,0 +1,3 @@
+class TotalAmount < ApplicationRecord
+    
+end

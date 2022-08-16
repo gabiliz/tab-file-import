@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <div class="wrapper-main">
+    <h1>Importe seu arquivo aqui!</h1>
+      <div class="wrapper-form">
+        <%= form_with url: file_index_path, multipart: true do |f| %>
+            <%= f.file_field(:file, accept: '.tab', align: 'center', required: true, ) %>
+            <%# <br><br> %>
+            <%= f.submit "Enviar" %>
+          <% end %>
+        <%= button_to "Ver dados", home_file_index_path, method: :get %>
+      </div>
+    </div>
+  </body>
+</html>

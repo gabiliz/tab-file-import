@@ -1,0 +1,15 @@
+<div class="home-page">
+    <div class="wrapper-home">
+        <h1 class="last-amount">
+        Último valor total inserido: R$
+            <%= @last_total_amount %>
+        </h1>
+        <h1 class="all-amount">
+        Valor total geral: R$
+            <%= @all_total_amount %>
+        </h1>
+    </div>
+    <div class="back-index">
+        <%= button_to "Inserir novo arquivo", file_index_path, method: :get, :class => "btn-back-index" %>
+    </div>
+</div>
